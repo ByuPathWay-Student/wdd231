@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 231</title>
+    <meta name="author" content="Adeline Scott">
+    <meta name="description" content="A homepage ">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/navigation.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 231</h1>
+    <header>
+        <img src="images/house-fill.svg" alt="house icon" width="1" height="1">
+        <span>Adeline Scott</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <h1>WDD 231</h1>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank"><img
+                    src="images/facebook.svg" alt="Facebook icon" width="16" height="16"></a>
+            <a href="https://github.com/ByuPathWay-Student/wdd231" target="_blank"><img src="images/github.svg"
+                    alt="Github icon" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn icon"
+                    width="16" height="16"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.svg" alt="Youtube icon"
+                    width="16" height="16"></a>
+        </div>
+        <p>copyright symbol and current year</p>
+        <p>Last Modified</p>
+    </footer>
 </body>
+
 </html>
