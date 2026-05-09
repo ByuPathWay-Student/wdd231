@@ -28,4 +28,14 @@
     .navigation a {
         border: none;
     }
+
+    .container {
+        display: grid;
+        grid-template-columns: 70% 1fr;
+        padding-bottom: 0.7rem;
+    }
+
+    section h2 {
+        margin-top: 0;
+    }
 }

@@ -1,11 +1,19 @@
-/* other color rgb(191, 234, 255); */
+:root {
+    --main-color: rgb(36, 185, 222);
+    --secondary-color: rgb(50, 50, 50);
+    --accent-color: rgb(210, 208, 208);
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
 
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
     padding: 5px 0 5px 10px;
     align-items: end;
-    border-bottom: solid 1px #ddd;
+    border-bottom: solid 1px var(--accent-color);
     column-gap: 8px;
 }
 
@@ -13,18 +21,19 @@ header img {
     display: block;
     width: 100%;
     height: auto;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 header span {
-    font-size: 1.2rem;
-    color: rgb(35, 94, 82);
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+    font-weight: bold;
 }
 
 .hamburger {
     background: none;
     border: none;
-    color: rgb(35, 94, 82);
+    color: var(--secondary-color);
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -56,27 +65,81 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: rgb(35, 94, 82);
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    border-bottom: solid 1px #ddd;
+    border-bottom: solid 1px var(--accent-color);
 }
 
 .navigation li.current {
-    background-color: #eee;
+    background-color: var(--main-color);
 }
 
 .navigation a:hover {
-    background-color: rgb(191, 234, 255);
+    background-color: var(--secondary-color);
+    color: rgb(255, 255, 255);
 }
 
 h1 {
     margin-left: 10px;
 }
 
+section {
+    margin-left: 10px;
+    background-color: var(--accent-color);
+    text-align: center;
+}
+
+section p, section img{
+    padding: 12px;
+}
+
+section h2 {
+    background-color: var(--main-color);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+section img {
+    width: 150px;
+    height: auto;
+}
+
 footer {
-    background-color: #eee;
+    background-color: var(--accent-color);
     padding: 1rem 10px;
     text-align: center;
+}
+
+.all-button, .wdd-button, .cse-button {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
+.all-button:hover,
+.wdd-button:hover,
+.cse-button:hover {
+    background-color: var(--secondary-color);
+    color: rgb(255, 255, 255);
+}
+
+.completed-course {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: var(--main-color);
+    margin: 12px;
+    border-radius: 15px;
+}
+
+.course-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .social {
@@ -91,7 +154,7 @@ footer {
     align-items: center;
     width: 44px;
     height: 44px;
-    border: #ccc solid 1px;
+    border: var(--secondary-color) solid 1px;
     border-radius: 22px;
 }
 
@@ -101,5 +164,5 @@ footer {
 }
 
 .social a:hover {
-    background-color: #ddd;
+    background-color: rgb(163, 163, 163);
 }
