@@ -18,7 +18,7 @@
 
     .navigation {
         display: block;
-        border-bottom: solid 1px #eee;
+        border-bottom: solid 1px rgb(210, 208, 208);
     }
 
     .navigation ul {
