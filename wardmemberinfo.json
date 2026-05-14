@@ -1,0 +1,23 @@
+{
+    "familyName": "Johnson",
+    "moveInDate": "5/13/2015",
+    "numberOfRecords": 3,
+    "beenVisitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Mark Johnson",
+            "gender": "Male",
+            "birthdate": "2/23/1982"
+        },
+        {
+            "name": "Lily Johnson",
+            "gender": "Female",
+            "birthdate": "7/15/1985"
+        },
+        {
+            "name": "Leroy Johnson",
+            "gender": "Male",
+            "birthdate": "3/20/2010"
+        }
+    ]
+}
