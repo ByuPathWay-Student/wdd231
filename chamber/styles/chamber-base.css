@@ -1,0 +1,81 @@
+:root {
+    --main-color: rgb(122, 225, 155);
+    --secondary-color: rgb(47, 47, 47);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-color);
+}
+
+.headercontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hambutton {
+    background: none;
+    border: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.hambutton::after {
+    content: "\2630";
+    font-size: 2.5rem;
+}
+
+.hambutton.show::after {
+    content: "\00D7";
+    font-size: 2.5rem;
+}
+
+.navbar {
+    display: none;
+}
+
+.navbar.show {
+    display: block;
+}
+
+header ul {
+    background-color: rgb(255, 251, 243);
+}
+
+header li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1.5rem;
+    border: 1px solid rgb(181, 174, 162);
+}
+
+header a:hover {
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+}
+
+main {
+    background-color: rgb(233, 233, 233);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--main-color);
+}
+
+.socials {
+    text-align: center;
+}

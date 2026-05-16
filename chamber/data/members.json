@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "companyName": "Smith's",
+            "companyAddress": "45 S State St Orem UT 84058",
+            "companyPhone": "(801) 224-6111",
+            "companyUrl": "smithsfoodanddrug.com",
+            "companyImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZeGZU2mW79M3G9e38fPQYv0vMrpGxxPW8ko78iRT1Lg&s&ec=121691707",
+            "membershipLevel": 1 
+        },
+        {
+            "companyName": "Hobby Lobby",
+            "companyAddress": "360 W University Pkwy Orem UT 84058",
+            "companyPhone": "(801) 221-3702",
+            "companyUrl": "hobbylobby.com",
+            "companyImage": "https://newsroom.hobbylobby.com/media-library/logos",
+            "membershipLevel": 2
+        },
+        {
+            "companyName": "NAPA Auto Parts",
+            "companyAddress": "310 S Main St Richfield UT 84701",
+            "companyPhone": "(435) 896-8458",
+            "companyUrl": "napaonline.com",
+            "companyImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfG0zfjBWHohiqTekOLAfK0Bl4BTixqb8duw&s",
+            "membershipLevel": 2
+        },
+        {
+            "companyName": "Motel 6",
+            "companyAddress": "1345 E 450 N Beaver UT 84713",
+            "companyPhone": "(435) 222-3565",
+            "companyUrl": "motel6.com",
+            "companyImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Motel-6-logo.svg/1280px-Motel-6-logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+            "membershipLevel": 3
+        },
+        {
+            "companyName": "TacoTime",
+            "companyAddress": "1156 S Hwy 191 Moab UT 84532",
+            "companyPhone": "(435) 355-0626",
+            "companyUrl": "tacotime.com",
+            "companyImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/TacoTime_logo.svg/1280px-TacoTime_logo.svg.png",
+            "membershipLevel": 1
+        },
+        {
+            "companyName": "Maverik",
+            "companyAddress": "304 S Main St Logan UT 84321",
+            "companyPhone": "(435) 752-4470",
+            "companyUrl": "locations.maverik.com",
+            "companyImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Maverik_logo.png/250px-Maverik_logo.png",
+            "membershipLevel": 3
+        },
+        {
+            "companyName": "Walmart Supercenter",
+            "companyAddress": "255 State Hwy 55, Price, UT 84501",
+            "companyPhone": "(435) 637-6712",
+            "companyUrl": "walmart.com",
+            "companyImage": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Walmart_logo_%282025%3B_Stacked_alt%29.svg",
+            "membershipLevel": 2
+        }
+    ]
+}
