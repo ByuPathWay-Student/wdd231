@@ -1,0 +1,45 @@
+@media only screen and (min-width: 38rem) {
+    .hambutton {
+        display: none;
+    }
+
+    .headercontainer {
+        display: flex;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .navbar ul {
+        display: flex;
+    }
+
+
+    header ul {
+        background-color: transparent;
+    }
+
+    header li {
+        list-style: none;
+        font-size: 1rem;
+    }
+
+    header a {
+        display: flex;
+        padding: 12px;
+        border: none;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
