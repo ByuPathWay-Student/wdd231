@@ -218,6 +218,10 @@ footer {
     display: flex;
 }
 
+.join li {
+    list-style-type: none;
+}
+
 .join a {
     text-decoration: none;
     color: rgb(0, 0, 0);
