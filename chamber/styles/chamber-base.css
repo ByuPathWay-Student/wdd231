@@ -79,6 +79,11 @@ header a:hover {
     background-color: var(--secondary-color);
 }
 
+.current {
+    background-color: rgb(255, 251, 243);
+    text-decoration: underline;
+}
+
 main {
     background-color: rgb(233, 233, 233);
     max-width: 1277px;
@@ -153,11 +158,11 @@ main h1 {
     align-items: center;
     padding: 1rem;
     border: 1px solid rgb(202, 202, 202);
+}
 
-    &:nth-child(even) {
-        background-color: rgb(255, 255, 255);
+.list section:nth-child(even) {
+    background-color: rgb(255, 255, 255);
 
-    }
 }
 
 .list p {

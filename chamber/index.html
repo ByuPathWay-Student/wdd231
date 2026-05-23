@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD231 | Directory Page</title>
+    <title>Utah Chamber of Commerce</title>
     <meta name="author" content="Adeline Scott">
-    <meta name="description" content="WDD 231: Web Frontend Development I | W02 Assignment: Chamber Directory Page">
+    <meta name="description" content="WDD 231: Web Frontend Development I | W02 Assignment: Chamber Home Page">
     <link rel="icon" href="images/piechart.ico">
-    <meta property="og:title" content="WDD 231 | Directory Page">
-    <meta property="og:description" content="WDD 231 | The directory page for a chamber of commerce webpage.">
+    <meta property="og:title" content="Utah Chamber of Commerce">
+    <meta property="og:description" content="WDD 231 | The Home page for a chamber of commerce webpage.">
     <meta property="og:image"
         content="https://byupathway-student.github.io/wdd231/chamber/images/buildings-picture.jpg">
-    <meta property="og:url" content="https://byupathway-student.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://byupathway-student.github.io/wdd231/chamber/index.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber-base.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
     <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/chamber-weather.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:opsz@17..18&display=swap" rel="stylesheet">
@@ -32,20 +32,41 @@
         </div>
         <nav id="navi" class="navbar">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Directory</h1>
-        <div class="buttonContainer">
-            <button id="cardbutton" class="cbutton">Grid View</button>
-            <button id="listbutton" class="lbutton">List View</button>
+        <h1>Home</h1>
+        <img class="hero">
+        <p>Join the Utah Chamber of Commerce <a href="#">Here!</a></p>
+        <div class="home-container">
+            <section class="curr-events">
+                <h2>Events</h2>
+            </section>
+            <section class="weather" id="curr-weather">
+                <h2>Current Weather</h2>
+                <div id="weather-icon"></div>
+                <div class="weather-data">
+                    <p id="temp"></p>
+                    <p id="weather-condition"></p>
+                    <p>High: <span id="high-temp"></span></p>
+                    <p>Low: <span id="low-temp"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>Sunrise: <span id="sunrise"></span></p>
+                    <p>Sunset: <span id="sunset"></span></p>
+                </div>
+            </section>
+            <section id="forecast">
+
+            </section>
         </div>
-        <div id="cards" class="card"></div>
+        <section class="spotlights">
+            <div class="company" id="compspotlight"></div>
+        </section>
     </main>
     <footer>
         <div class="container">
