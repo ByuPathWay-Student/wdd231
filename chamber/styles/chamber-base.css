@@ -171,7 +171,6 @@ main h1 {
 
 footer {
     background-color: var(--main-color);
-
 }
 
 .container {
@@ -202,4 +201,96 @@ footer {
 .socials img {
     width: 44px;
     height: 44px;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.join {
+    top: 435px;
+    right: 50px;
+    color: rgb(255, 255, 255);
+    background-color: var(--secondary-color);
+    padding: 30px;
+    display: flex;
+}
+
+.join a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    background-color: var(--main-color);
+    border-radius: 12px;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.curr-events,
+.weather,
+.weather-forcast,
+.comp-spotlight {
+    margin: 12px;
+}
+
+.curr-events h2,
+.weather h2,
+.weather-forcast h2 {
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: rgb(233, 233, 233);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.curr-events {
+    height: 250px;
+}
+
+.curr-events p {
+    margin: 12px;
+}
+
+.weather-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 12px;
+}
+
+.weather-container img {
+    width: 100%;
+    height: auto;
+}
+
+.weather-container p {
+    margin-bottom: 5px;
+}
+
+.weather-forcast {
+    text-align: center;
+}
+
+.weather-forcast h3 {
+    margin-top: 12px;
+}
+
+.comp-spotlight img {
+    width: 50%;
+    height: auto;
+}
+
+.comp-spotlight {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 5px;
+}    
+.comp-spotlight div {
+    margin-bottom: 12px;
+    border: 1px solid var(--secondary-color);
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
 }

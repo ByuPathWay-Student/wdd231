@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="styles/chamber-base.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
     <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/chamber-weather.js" defer></script>
+    <script src="scripts/chamber-home.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:opsz@17..18&display=swap" rel="stylesheet">
@@ -40,32 +40,48 @@
         </nav>
     </header>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero.jpg" media="(min-width: 38rem)">
+                <img class="hero" src="images/hero-small.jpg"
+                    alt="A picture of Delicate Arch in Arches National Park Utah.">
+            </picture>
+
+            <div class="join">
+                <p>Join the Utah Chamber of Commerce</p>
+                <ul>
+                    <a href="#">Here!</a>
+                </ul>
+            </div>
+        </div>
         <h1>Home</h1>
-        <img class="hero">
-        <p>Join the Utah Chamber of Commerce <a href="#">Here!</a></p>
         <div class="home-container">
             <section class="curr-events">
                 <h2>Events</h2>
+                <p>Utah Chamber of Commerce Meeting</p>
+                <p>Utah Chamber of Commerce Training</p>
+                <p>Utah Chamber of Commerce Webinar</p>
             </section>
             <section class="weather" id="curr-weather">
                 <h2>Current Weather</h2>
-                <div id="weather-icon"></div>
-                <div class="weather-data">
-                    <p id="temp"></p>
-                    <p id="weather-condition"></p>
-                    <p>High: <span id="high-temp"></span></p>
-                    <p>Low: <span id="low-temp"></span></p>
-                    <p>Humidity: <span id="humidity"></span></p>
-                    <p>Sunrise: <span id="sunrise"></span></p>
-                    <p>Sunset: <span id="sunset"></span></p>
+                <div class="weather-container">
+                    <img id="weather-icon" src="" alt="">
+                    <div class="weather-data">
+                        <p id="temp"></p>
+                        <p id="weather-condition"></p>
+                        <p>High: <span id="high-temp"></span></p>
+                        <p>Low: <span id="low-temp"></span></p>
+                        <p>Humidity: <span id="humidity"></span></p>
+                        <p>Sunrise: <span id="sunrise"></span></p>
+                        <p>Sunset: <span id="sunset"></span></p>
+                    </div>
                 </div>
             </section>
-            <section id="forecast">
-
+            <section id="forecast" class="weather-forcast">
+                <h2>Forecast</h2>
             </section>
         </div>
-        <section class="spotlights">
-            <div class="company" id="compspotlight"></div>
+        <section id="spotlights" class="comp-spotlight">
         </section>
     </main>
     <footer>

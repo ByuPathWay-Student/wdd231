@@ -42,4 +42,18 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .home-container {
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+    }
+
+    .comp-spotlight img {
+        width: 35%;
+        height: auto;
+    }
+
+    .comp-spotlight div {
+        text-align: left;
+    }
 }
