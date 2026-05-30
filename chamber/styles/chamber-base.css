@@ -390,6 +390,7 @@ footer {
 }
 
 #memberlvlCards div {
+    animation: memberLvlFade 1s forwards;
     margin-top: 12px;
     font-size: 1.2rem;
     padding: 1rem;
@@ -414,6 +415,19 @@ footer {
 
 #memberDialog {
     margin: auto;
+}
+
+@keyframes memberLvlFade {
+    from {
+        background-color: rgb(224, 202, 169);
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 #memberDialogContainer {
