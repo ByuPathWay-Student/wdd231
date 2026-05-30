@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD231 | Directory Page</title>
+    <title>Utah Chamber of Commerce</title>
     <meta name="author" content="Adeline Scott">
-    <meta name="description" content="WDD 231: Web Frontend Development I | W02 Assignment: Chamber Directory Page">
+    <meta name="description" content="WDD 231: Web Frontend Development I | W02 Assignment: Chamber Home Page">
     <link rel="icon" href="images/piechart.ico">
-    <meta property="og:title" content="WDD 231 | Directory Page">
-    <meta property="og:description" content="WDD 231 | The directory page for a chamber of commerce webpage.">
+    <meta property="og:title" content="Utah Chamber of Commerce">
+    <meta property="og:description" content="WDD 231 | The Home page for a chamber of commerce webpage.">
     <meta property="og:image"
         content="https://byupathway-student.github.io/wdd231/chamber/images/buildings-picture.jpg">
-    <meta property="og:url" content="https://byupathway-student.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://byupathway-student.github.io/wdd231/chamber/index.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber-base.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
     <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/chamber-thankyou.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:opsz@17..18&display=swap" rel="stylesheet">
@@ -33,19 +33,17 @@
         <nav id="navi" class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="join.html">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Directory</h1>
-        <div class="buttonContainer">
-            <button id="cardbutton" class="cbutton">Grid View</button>
-            <button id="listbutton" class="lbutton">List View</button>
+        <h1>Thank You!</h1>
+        <div class="thankYouContainer">
+            <div id="recipt"></div>
         </div>
-        <div id="cards" class="card"></div>
     </main>
     <footer>
         <div class="container">

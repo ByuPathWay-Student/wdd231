@@ -56,4 +56,9 @@
     .comp-spotlight div {
         text-align: left;
     }
+
+    .joinMain {
+        display: grid;
+        grid-template-columns: 50% 50%;     
+    }
 }

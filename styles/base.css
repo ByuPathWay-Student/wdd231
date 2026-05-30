@@ -166,3 +166,22 @@ footer {
 .social a:hover {
     background-color: rgb(163, 163, 163);
 }
+
+dialog {
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: var(--accent-color);
+    box-shadow: 0 0 30px rgb(77, 77, 77);
+    width: 90%;
+    max-width: 700px;
+}
+
+::backdrop {
+    background-color: rgb(0, 0, 0 / 30%);
+}
+
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+}

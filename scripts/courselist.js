@@ -3,6 +3,7 @@ const wdd = document.querySelector('#wdd');
 const cse = document.querySelector('#cse');
 const cc = document.querySelector('#coursecontainer');
 const coursecredit = document.querySelector('#credit');
+const coursedesc = document.querySelector('#course-descriptions');
 
 const courses = [
     {
@@ -98,6 +99,10 @@ function coursesorter(courseslist = courses) {
         coursetitle.textContent = `${course.subject} ${course.number}`;
         card.appendChild(coursetitle);
         cc.appendChild(card);
+
+        cc.addEventListener('click', () => {
+            displayCourseModal(course);
+        });
     })
     
 }
@@ -124,3 +129,21 @@ cse.addEventListener('click', () => {
     const totalcredits = csecourses.reduce((sum, c) => sum + c.credits, 0);
     coursecredit.textContent = `${totalcredits}`;
 });
+
+function displayCourseModal(course) {
+    coursedesc.innerHTML = '';
+    coursedesc.innerHTML = `
+        <button id="closeModal">X</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p>Credits: ${course.credits}</p>
+        <p>Certificate: ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p>Technologies: ${course.technology.join(', ')}</p>
+        `;
+    coursedesc.showModal();
+    closeModal.addEventListener("click", () => {
+        coursedesc.close();
+    });
+
+}

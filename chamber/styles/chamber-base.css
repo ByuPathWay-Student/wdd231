@@ -289,7 +289,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 5px;
-}    
+}
+
 .comp-spotlight div {
     margin-bottom: 12px;
     border: 1px solid var(--secondary-color);
@@ -297,4 +298,166 @@ footer {
     padding: 12px;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
+}
+
+.joinMain {
+    margin-left: 20px;
+}
+
+.firstN,
+.lastN,
+.orgTitle,
+.emailAdress,
+.phoneNumber,
+.businessN,
+.business-desc,
+.membershipLvl {
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.firstN input,
+.lastN input,
+.orgTitle input,
+.emailAdress input,
+.phoneNumber input,
+.businessN input {
+    margin-top: 5px;
+    width: 70%;
+    height: 44px;
+}
+
+.business-desc textarea{
+    width: 70%;
+    height: 150px;
+}
+
+.firstN label,
+.lastN label,
+.orgTitle label,
+.emailAdress label,
+.phoneNumber label,
+.businessN label,
+.business-desc label,
+.membershipLvl p {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.c-change {
+    color: rgb(203, 1, 1);
+}
+
+.req-text {
+    margin-left: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+}
+
+.membershipLvl label {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.membershipLvl input {
+    width: 44px;
+    height: 44px;
+    margin-right: 12px;
+}
+
+.subButton {
+    width: 70%;
+    height: 44px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    background-color: var(--main-color);
+}
+
+.subButton:hover {
+    cursor: pointer;
+}
+
+.subButton:active {
+    background-color: rgb(80, 133, 108);
+}
+
+#memberlvlCards {
+    padding-bottom: 1.5rem;
+}
+
+#memberlvlCards div {
+    margin-top: 12px;
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 70%;
+    text-align: center;
+    background-color: rgb(255, 251, 243);
+    border: 2px solid var(--secondary-color);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#memberlvlCards button {
+    padding: .5rem;
+    margin-top: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+#memberlvlCards button:hover {
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+}
+
+#memberDialog {
+    margin: auto;
+}
+
+#memberDialogContainer {
+    padding: 1.5rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.dialogContainer {
+    display: grid;
+    grid-template-columns: auto 50px;
+    padding: 10px;   
+}
+
+#memberDialogContainer p {
+    padding: 5px;
+}
+
+#closeButton {
+    background-color: var(--main-color);
+}
+
+#closeButton:hover {
+    cursor: pointer;
+    background-color: rgb(95, 184, 123);
+}
+
+::backdrop {
+    background-color: rgba(16, 16, 16, 0.693);
+}
+
+.thankYouContainer {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+#recipt {
+    border: 1px solid var(--secondary-color);
+}
+
+#recipt p {
+    background-color: rgb(255, 255, 255);
+    padding: .5rem;
 }
