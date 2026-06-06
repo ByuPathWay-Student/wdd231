@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="styles/chamber-base.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
     <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="data/items.mjs" type="module"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:opsz@17..18&display=swap" rel="stylesheet">
@@ -33,19 +33,16 @@
         <nav id="navi" class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="directory.html">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li class="current"><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Directory</h1>
-        <div class="buttonContainer">
-            <button id="cardbutton" class="cbutton">Grid View</button>
-            <button id="listbutton" class="lbutton">List View</button>
-        </div>
-        <div id="cards" class="card"></div>
+        <h1>Discover</h1>
+        
+        <div id="interestCard"></div>
     </main>
     <footer>
         <div class="container">
