@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 64rem) {
     .hambutton {
         display: none;
     }
@@ -59,6 +59,19 @@
 
     .joinMain {
         display: grid;
-        grid-template-columns: 50% 50%;     
+        grid-template-columns: 50% 50%;
+    }
+
+    #interestCard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #interestCard div button {
+        width: 70%;
+    }
+
+    #interestCard div img:hover {
+        box-shadow:  0px 10px 30px rgb(0, 0, 0);
     }
 }

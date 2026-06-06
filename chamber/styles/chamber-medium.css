@@ -1,0 +1,14 @@
+@media only screen and (min-width: 38rem) {
+    #interestCard div {
+
+        display: grid;
+        grid-template-areas:
+            "photograph name"
+            "photograph description"
+            "photograph location"
+            "photograph learnMore";
+    }
+    #interestCard div img {
+        width: 300px
+    }
+}

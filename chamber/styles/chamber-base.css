@@ -327,7 +327,7 @@ footer {
     height: 44px;
 }
 
-.business-desc textarea{
+.business-desc textarea {
     width: 70%;
     height: 150px;
 }
@@ -439,7 +439,7 @@ footer {
 .dialogContainer {
     display: grid;
     grid-template-columns: auto 50px;
-    padding: 10px;   
+    padding: 10px;
 }
 
 #memberDialogContainer p {
@@ -474,4 +474,71 @@ footer {
 #recipt p {
     background-color: rgb(255, 255, 255);
     padding: .5rem;
+}
+
+#interestCard {
+    padding-bottom: 2rem;
+}
+
+#interestCard div {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+        "name"
+        "photograph"
+        "description"
+        "location"
+        "learnMore";
+}
+
+#interestCard div img {
+    width: 100%;
+    grid-area: photograph;
+}
+
+#interestCard div h2 {
+    margin: 1rem;
+    grid-area: name;
+}
+
+#interestCard div address {
+    margin: 1rem;
+    grid-area: location;
+}
+
+#interestCard div p {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    grid-area: description;
+}
+
+#interestCard div button {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    font-size: 22px;
+    grid-area: learnMore;
+}
+
+#interestCard div button:hover {
+    cursor: pointer;
+    background-color: rgb(95, 184, 123);
+}
+
+#visitDate {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 20px;
+    font-style: italic;
+    color: var(--secondary-color);
 }
