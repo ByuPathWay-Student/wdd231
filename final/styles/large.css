@@ -1,0 +1,43 @@
+@media only screen and (min-width: 38rem) {
+
+    main {
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+
+    #ham-button {
+        display: none;
+    }
+
+    header {
+        background-color: var(--main-color);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    #navi {
+        display: flex;
+        justify-content: center
+    }
+
+    #navi ul {
+        display: flex;
+    }
+
+    #navi a {
+        display: flex;
+        padding: 12px;
+        border: none;
+    }
+
+    #navi a:hover {
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+    }
+
+    .homeMain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

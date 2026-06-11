@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Club of Utah</title>
+
+    <link rel="icon" href="images/art-club-of-utah.ico">
+
+    <meta name="author" content="Adeline Scott">
+    <meta name="description"
+        content="WDD 231: Web Frontend Development | Individual Website Project | Art Club of Utah | Home">
+
+    <meta property="og:title" content="Art Club of Utah">
+    <meta property="og:description" content="WDD 231 | The Home page for the Art club of Utah.">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/art-club.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <img src="images/brush-fill.svg" alt="An icon of a paintbrush.">
+            <h1>Art Club of Utah</h1>
+
+            <button id="ham-button" aria-label="Menu"></button>
+        </div>
+        <nav id="navi">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/hero-large.jpg" media="(min-width: 38rem)">
+            <img class="hero" src="images/hero-small.jpg" alt="A picture of a sketchbook with various art supplies.">
+        </picture>
+        <section class="intro">
+            <p>Welcome! We are a club focused on art, and anything creative! We hold events, and chances to meet other
+                artists like yourself!</p>
+        </section>
+
+        <div class="homeMain">
+
+        <div class="links">
+            <section class="infoLink">
+                <p>Want to know more about us?</p>
+                <li>
+                    <a href="#">Click Here!</a>
+                </li>
+
+            </section>
+
+            <section class="joinLink">
+                <p>Want to join the Art Club of Utah?</p>
+                <ul>
+                    <li>
+                        <a href="#">Click Here!</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="weatherContainer">
+            <div id="weather">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, illum.</p>
+            </div>
+        </section>
+        </div>
+    </main>
+    <footer>
+
+        <div class="socials">
+            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank"><img
+                    src="images/facebook.svg" alt="Facebook icon" width="16" height="16"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter.svg" alt="Twitter Icon" width="16"
+                    height="16"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.svg" alt="Youtube icon"
+                    width="16" height="16"></a>
+        </div>
+
+        <p> © <span id="currYear"></span> | Art Club of Utah | Adeline Scott</p>
+        <p id="lastMod"></p>
+    </footer>
+</body>
+
+</html>

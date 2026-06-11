@@ -1,0 +1,148 @@
+:root {
+    --main-color: rgb(169, 209, 242);
+    --secondary-color: rgb(245, 245, 245);
+    --accent-color-one: rgb(52, 77, 127);
+    --accent-color-two: rgb(139, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.head-container {
+    background-color: var(--main-color);
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header img {
+    min-width: 3rem;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+#ham-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#ham-button::after {
+    content: "\2630";
+    font-size: 2.5rem;
+}
+
+#ham-button.show::after {
+    content: "\00D7";
+    font-size: 3rem;
+}
+
+#navi {
+    display: none;
+}
+
+#navi.show {
+    display: block;
+}
+
+#navi ul {
+    background-color: var(--secondary-color);
+}
+
+#navi li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navi .current a {
+    background-color: var(--accent-color-one);
+    color: rgb(255, 255, 255);
+}
+
+#navi a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-bottom: 1px solid var(--accent-color-one);
+}
+
+#navi a:hover {
+    text-decoration: underline;
+    background-color: var(--main-color);
+}
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+main {
+    background-color: var(--secondary-color);
+}
+
+.intro {
+    padding: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: 1px solid var(--accent-color-one);
+    border-bottom: 1px solid var(--accent-color-one);
+}
+
+.infoLink, .joinLink {
+    padding: 2rem;
+}
+
+.infoLink li,
+.joinLink li {
+    list-style: none;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.infoLink a, .joinLink a {
+    text-decoration: none;
+    background-image: linear-gradient(var(--main-color), rgb(125, 164, 209));
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px solid var(--accent-color-one);
+    border-radius: 0.5rem;
+}
+
+.infoLink a:active,
+.joinLink a:active {
+    background-image: none;
+    background-color: var(--accent-color-one);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+
+
+
+
+footer {
+    background-color: var(--main-color);
+    padding: 2rem;
+    text-align: center;
+}
+
+.socials a img {
+    width: 36px;
+    height: 36px;
+    padding: 1rem;
+}
