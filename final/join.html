@@ -13,9 +13,10 @@
         content="WDD 231: Web Frontend Development | Individual Website Project | Art Club of Utah | Join">
 
     <meta property="og:title" content="Art Club of Utah">
-    <meta property="og:description" content="WDD 231 | The Join page for the Art club of Utah.">
+    <meta property="og:description"
+        content="WDD 231: Web Frontend Development | Individual Website Project | The Join page for the Art club of Utah.">
     <meta property="og:image" content="https://byupathway-student.github.io/wdd231/final/images/colored-pencils.jpg">
-    <meta property="og:url" content="https://byupathway-student.github.io/wdd231/final/index.html">
+    <meta property="og:url" content="https://byupathway-student.github.io/wdd231/final/join.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +33,7 @@
     <header>
         <div class="head-container">
             <img src="images/brush-fill.svg" alt="An icon of a paintbrush.">
-            <h1>Art Club of Utah</h1>
+            <span>Art Club of Utah</span>
 
             <button id="ham-button" aria-label="Menu"></button>
         </div>
@@ -45,9 +46,49 @@
         </nav>
     </header>
     <main>
-        <h2>Join</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolor omnis iure incidunt perspiciatis
-            ratione beatae, esse aliquid sapiente sequi?</p>
+        <h1>Join</h1>
+        <div class="joinMain">
+            <p class="req"> * indicates required</p>
+
+            <form method="get" action="thanks.html" id="joinForm">
+
+                <div class="firstN">
+                    <label for="firstName">First Name<span class="colorChange">*</span></label>
+                    <input type="text" id="firstName" name="first" autocomplete="given-name"
+                        title="Please enter your first name." required>
+                </div>
+
+                <div class="lastN">
+                    <label for="lastName">Last Name<span class="colorChange">*</span></label>
+                    <input type="text" id="lastName" name="last" autocomplete="family-name"
+                        title="Please enter your last name." required>
+                </div>
+
+                <div class="emailAddress">
+                    <label for="email">Email<span class="colorChange">*</span></label>
+                    <input type="email" id="email" name="emailAdd" autocomplete="email"
+                        title="Please enter your email address." placeholder="example@email.com" required>
+                </div>
+
+                <div class="newsletter">
+                    <p>Would you like to subscribe to our newsletter?<span class="colorChange">*</span></p>
+                    <div>
+                        <label><input type="radio" name="newsl" value="No" required>No</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="newsl" value="Yes" required>Yes</label>
+                    </div>
+                </div>
+
+                <div class="goals">
+                    <label for="artGoals">Would you like to share some of your art goals with us? <span
+                            class="styleChange">(optional)</span></label>
+                    <textarea id="artGoals" name="aGoals" title="Enter what goals you have for art."></textarea>
+                </div>
+
+                <button type="submit" class="submitButton">Join the Club!</button>
+            </form>
+        </div>
     </main>
     <footer>
 

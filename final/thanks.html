@@ -13,9 +13,9 @@
         content="WDD 231: Web Frontend Development | Individual Website Project | Art Club of Utah | Thank You">
 
     <meta property="og:title" content="Art Club of Utah">
-    <meta property="og:description" content="WDD 231 | The thank you page for the Art club of Utah.">
+    <meta property="og:description" content="WDD 231: Web Frontend Development | Individual Website Project | The thank you page for the Art club of Utah.">
     <meta property="og:image" content="https://byupathway-student.github.io/wdd231/final/images/colored-pencils.jpg">
-    <meta property="og:url" content="https://byupathway-student.github.io/wdd231/final/index.html">
+    <meta property="og:url" content="https://byupathway-student.github.io/wdd231/final/join.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,13 +26,14 @@
     <link rel="stylesheet" href="styles/large.css">
 
     <script src="scripts/art-club.js" defer></script>
+    <script src="scripts/thanks.js" defer></script>
 </head>
 
 <body>
     <header>
         <div class="head-container">
             <img src="images/brush-fill.svg" alt="An icon of a paintbrush.">
-            <h1>Art Club of Utah</h1>
+            <span>Art Club of Utah</span>
 
             <button id="ham-button" aria-label="Menu"></button>
         </div>
@@ -44,8 +45,8 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h2>Thank you!</h2>
+    <main class="thanksMain">
+        <h1>Thank you for joining!</h1>
         <div id="recipt"></div>
     </main>
     <footer>
