@@ -89,6 +89,12 @@ main {
     background-color: var(--secondary-color);
 }
 
+h2 {
+    text-align: center;
+    padding-top: 2rem;
+    color: var(--accent-color-one);
+}
+
 .intro {
     padding: 2rem;
 }
