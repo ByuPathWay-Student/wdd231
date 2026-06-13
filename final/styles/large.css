@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 64rem) {
 
     main {
         max-width: 1250px;
@@ -39,5 +39,27 @@
     .homeMain {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .eventCards div {
+        width: 80%;
+    }
+
+    .about-container img {
+        width: 500px;
+        margin-left: 3rem;
+        margin-bottom: 27px;
+        margin-top: 0;
+        box-shadow: 0 0 15px var(--accent-color-one);
+    }
+
+    #eventDialogContainer {
+        margin: auto;
+        width: 50%;
     }
 }

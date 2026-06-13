@@ -1,0 +1,109 @@
+{
+    "events": [
+        {
+            "eventName": "Digital Art for Beginners",
+            "eventLocation": "Online",
+            "eventDate": "6/20/2026",
+            "eventTime": "2:00P.M. - 3:00P.M.",
+            "eventType": "Online Event"
+        },
+        {
+            "eventName": "Paint Together",
+            "eventLocation": "Tunnel Springs Park UT",
+            "eventDate": "6/30/2026",
+            "eventTime": "10:00A.M. - 3:00P.M.",
+            "eventType": "In Person Event"
+        },
+        {
+            "eventName": "Learn Watercolor",
+            "eventLocation": "Copperton Park UT",
+            "eventDate": "7/10/2026",
+            "eventTime": "12:00P.M. - 2:00P.M.",
+            "eventType": "In Person Event"
+        },
+        {
+            "eventName": "Kids Art Activities",
+            "eventLocation": "Online",
+            "eventDate": "7/22/2026",
+            "eventTime": "9:00A.M. - 10:00 A.M.",
+            "eventType": "Online Event"
+        },
+        {
+            "eventName": "Art Museum Trip",
+            "eventLocation": "Utah Museum of Fine Arts",
+            "eventDate": "7/25/2026",
+            "eventTime": "11:00A.M. - 1:00P.M.",
+            "eventType": "In Person Event"
+        },
+        {
+            "eventName": "Arts and Crafts",
+            "eventLocation": "Online",
+            "eventDate": "7/28/2026",
+            "eventTime": "6:00P.M. - 7:30P.M.",
+            "eventType": "Online Event"
+        },
+        {
+            "eventName": "Create Anything",
+            "eventLocation": "Franklin Park UT",
+            "eventDate": "8/1/2026",
+            "eventTime": "12:30P.M. - 5:00P.M.",
+            "eventType": "In Person Event"
+        },
+        {
+            "eventName": "Learn to use Colored Pencils",
+            "eventLocation": "Hillcrest Park",
+            "eventDate": "8/12/2026",
+            "eventTime": "8:00A.M. - 10:00A.M.",
+            "eventType": "In Person Event"
+        },
+        {
+            "eventName": "Learn to Sew",
+            "eventLocation": "Online",
+            "eventDate": "8/17/2026",
+            "eventTime": "6:00P.M. - 8:00P.M.",
+            "eventType": "Online Event"
+        },
+        {
+            "eventName": "Quick Sketching",
+            "eventLocation": "Online",
+            "eventDate": "8/20/2026",
+            "eventTime": "12:00P.M. - 1:30P.M.",
+            "eventType": "Online Event"
+        },
+        {
+            "eventName": "Crafts with Yarn",
+            "eventLocation": "Online",
+            "eventDate": "8/23/2026",
+            "eventTime": "6:00A.M. - 7:30A.M.",
+            "eventType": "Online Event"
+        },
+        {
+            "eventName": "Let's Tie Dye Clothing",
+            "eventLocation": "Lundstrom Park UT",
+            "eventDate": "8/25/2026",
+            "eventTime": "12:00P.M. - 3:00P.M.",
+            "eventType": "In Person Event"
+        },
+        {
+            "eventName": "Let's Fill Some Coloring Books",
+            "eventLocation": "Imperial Park UT",
+            "eventDate": "8/27/2026",
+            "eventTime": "12:00P.M. - 3:30P.M.",
+            "eventType": "In Person Event"
+        },
+        {
+            "eventName": "Back to School Crafts",
+            "eventLocation": "Online",
+            "eventDate": "9/2/2026",
+            "eventTime": "8:00A.M. - 9:30A.M.",
+            "eventType": "Online Event"
+        },
+        {
+            "eventName": "Art Contest Results",
+            "eventLocation": "Online",
+            "eventDate": "9/25/2026",
+            "eventTime": "5:00P.M. - 7:00P.M.",
+            "eventType": "Online Event"
+        }
+    ]
+}

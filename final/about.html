@@ -13,7 +13,8 @@
         content="WDD 231: Web Frontend Development | Individual Website Project | Art Club of Utah | About Us">
 
     <meta property="og:title" content="Art Club of Utah">
-    <meta property="og:description" content="WDD 231: Web Frontend Development | Individual Website Project | The Information page for the Art club of Utah.">
+    <meta property="og:description"
+        content="WDD 231: Web Frontend Development | Individual Website Project | The Information page for the Art club of Utah.">
     <meta property="og:image" content="https://byupathway-student.github.io/wdd231/final/images/colored-pencils.jpg">
     <meta property="og:url" content="https://byupathway-student.github.io/wdd231/final/about.html">
 
@@ -26,6 +27,7 @@
     <link rel="stylesheet" href="styles/large.css">
 
     <script src="scripts/art-club.js" defer></script>
+    <script src="scripts/about.js" defer></script>
 </head>
 
 <body>
@@ -46,8 +48,38 @@
     </header>
     <main>
         <h1>About Us</h1>
-        <!-- add an event list thing that you can filter -->
-       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolor omnis iure incidunt perspiciatis ratione beatae, esse aliquid sapiente sequi?</p>
+        <p id="VisitTime"></p>
+        <p class="about-desc">We are a club focused on helping artists in the state of Utah. We hold events both online and in person,
+            these events are focused on meeting, and making art with other artists across the state! The club is open to
+            any skill level, we accept everyone from beginner to professional.</p>
+        <div class="about-container">
+            <img src="images/event-table.jpg" alt="An image of a table outside with many art supplies on it." loading="lazy">
+            <div class="eventCards">
+                <div>
+                    <p>Online Events</p>
+                    <button type="button" id="openButton1">Learn More</button>
+                </div>
+                <div>
+                    <p>In Person Events</p>
+                    <button type="button" id="openButton2">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <dialog id="eventDialogContainer">
+            <div class="dialogContainer">
+                <div id="eventDialog"></div>
+                <button type="button" id="closeButton">Close</button>
+            </div>
+        </dialog>
+
+        <div class="buttonContainer">
+            <button type="button" id="allButton">All Events</button>
+            <button type="button" id="onlineButton">Online Events</button>
+            <button type="button" id="inPersonButton">In Person Events</button>
+        </div>
+
+        <div id="aboutCard"></div>
     </main>
     <footer>
 

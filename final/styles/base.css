@@ -233,18 +233,108 @@ footer {
     font-size: 20px;
 }
 
-.thanksMain {
-    background-color: transparent;
-}
-
 #recipt {
-   margin: 2rem;
-   padding: 2rem;
-    background-color: var(--secondary-color);
-    border: 1px solid var(--accent-color-one);
-    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
 }
 
 #recipt p {
     padding: .7rem;
+}
+
+.about-desc {
+    padding: 2rem 1rem;
+    border-bottom:1px solid var(--accent-color-one);
+}
+
+.about-container {
+    margin-top: 2rem;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-container img {
+    width: 350px;
+    height: auto;
+    margin-top: 2rem;
+    box-shadow: 0 0 15px var(--accent-color-one);
+}
+
+.eventCards {
+    padding: 2rem;
+}
+
+.eventCards div {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--main-color);
+    text-align: center;
+    width: 350px;
+    border: 1px solid var(--accent-color-one);
+    border-radius: 15px;
+}
+
+.eventCards div p {
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#openButton1,
+#openButton2 {
+    padding: .7rem;
+    width: 50%;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--accent-color-one);
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+#openButton1:hover,
+#openButton2:hover,
+#closeButton:hover {
+    cursor: pointer;
+    background-color: rgb(225, 225, 225);
+}
+
+#eventDialogContainer {
+    margin: auto;
+}
+
+.dialogContainer {
+    display: flex;
+    padding: 2rem;
+}
+
+.dialogContainer p {
+    padding: .5rem;
+}
+
+#closeButton {
+    padding: 1.5rem;
+    height: 100px;
+    margin-left: 10px;
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+}
+
+.buttonContainer {
+    border-top: 1px solid var(--accent-color-one);
+    padding: 2rem;
+}
+
+.buttonContainer button {
+    padding: 1rem;
+    margin-right: 12px;
+}
+
+#VisitTime {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--accent-color-two);
+    font-style: italic;
 }
