@@ -380,3 +380,7 @@ footer {
     font-size: 20px;
     padding-bottom: 2rem;
 }
+
+.prompt {
+    padding: 2rem;
+}
