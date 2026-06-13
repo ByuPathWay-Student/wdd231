@@ -44,6 +44,8 @@
     .about-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin-bottom: 2rem;
     }
 
     .eventCards div {
@@ -51,9 +53,8 @@
     }
 
     .about-container img {
-        width: 500px;
-        margin-left: 3rem;
-        margin-bottom: 27px;
+        width: 90%;
+        margin-left: 2rem;
         margin-top: 0;
         box-shadow: 0 0 15px var(--accent-color-one);
     }
@@ -69,5 +70,14 @@
 
     .weatherContainer {
         border-top: 1px solid var(--accent-color-one);
+    }
+
+    #aboutCard section {
+        width: 70%;
+        margin-left: 2rem;
+    }
+
+    .about-main {
+        padding-bottom: 2rem;
     }
 }
