@@ -1,0 +1,1 @@
+export const artPromts = ["Try an art supply you've never used before.", "Use watercolors.", "Use a digital art program", "Try getting random colors.", "Try getting random supplies.", "Do some pencil sketching.", "Try recycling something into art.", "Redraw an old art piece."];
