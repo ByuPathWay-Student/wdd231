@@ -245,14 +245,11 @@ footer {
 
 .about-desc {
     padding: 2rem 1rem;
-    border-bottom:1px solid var(--accent-color-one);
+    border-bottom: 1px solid var(--accent-color-one);
 }
 
 .about-container {
     margin-top: 2rem;
-}
-
-.about-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -348,7 +345,7 @@ footer {
     font-style: italic;
 }
 
-#aboutCard section{
+#aboutCard section {
     display: flex;
     flex-direction: column;
     text-align: center;
