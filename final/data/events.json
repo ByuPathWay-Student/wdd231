@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventName": "Digital Art for Beginners",
+            "eventName": "Digital Art",
             "eventLocation": "Online",
             "eventDate": "6/20/2026",
             "eventTime": "2:00P.M. - 3:00P.M.",
@@ -50,7 +50,7 @@
             "eventType": "In Person Event"
         },
         {
-            "eventName": "Learn to use Colored Pencils",
+            "eventName": "Learn Colored Pencils",
             "eventLocation": "Hillcrest Park",
             "eventDate": "8/12/2026",
             "eventTime": "8:00A.M. - 10:00A.M.",
@@ -78,14 +78,14 @@
             "eventType": "Online Event"
         },
         {
-            "eventName": "Let's Tie Dye Clothing",
+            "eventName": "Tie Dye Clothing",
             "eventLocation": "Lundstrom Park UT",
             "eventDate": "8/25/2026",
             "eventTime": "12:00P.M. - 3:00P.M.",
             "eventType": "In Person Event"
         },
         {
-            "eventName": "Let's Fill Some Coloring Books",
+            "eventName": "Coloring Books",
             "eventLocation": "Imperial Park UT",
             "eventDate": "8/27/2026",
             "eventTime": "12:00P.M. - 3:30P.M.",

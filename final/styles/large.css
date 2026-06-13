@@ -62,4 +62,12 @@
         margin: auto;
         width: 50%;
     }
+
+    .links {
+        border-bottom: none;
+    }
+
+    .weatherContainer {
+        border-top: 1px solid var(--accent-color-one);
+    }
 }
